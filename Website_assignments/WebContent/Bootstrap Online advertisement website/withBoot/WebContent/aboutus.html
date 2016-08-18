@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/data1.js"></script>
+  <script src="js/xflyer.js"></script>
+</head>
+<body onload="Menu()">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <li><a class="navbar-brand" href="#"><img src="images/logo.jpg" /></a></li>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     <!-- Dropdown Filter code -->     
+         <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        
+        </ul>
+<form class="navbar-form navbar-right">
+        <a type="button" class="btn btn-primary" href="index2.html">Search</a>
+   
+   
+
+
+ <!-- Sign up poatAd login button -->       
+ 
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">Post Ad</button>
+		<span id="wel"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2" data-whatever="@fat">Sign Up</button>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" data-whatever="@getbootstrap">Login</button></span>
+
+
+<!-- login vala modal -->
+
+		<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+ 		 <div class="modal-dialog" role="document">
+ 		   <div class="modal-content">
+  		    <div class="modal-header">
+      		  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      		  <h4 class="modal-title" id="exampleModalLabel">Login</h4>
+    	   </div>
+   		<div class="modal-body">
+       <form>
+  			<div class="form-group">
+  		 		 	<label for="exampleInputEmail1">Email address</label>
+  		 		 	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+ 			 </div>
+  		<div class="form-group">
+   				<label for="exampleInputPassword1">Password</label>
+   				 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+ 		 </div>
+		</form>
+		</div>
+		
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>New User?</button>
+        <button type="button" class="btn btn-primary" onclick="UserName()">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Signup & postAd vala modal -->
+
+		<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+ 		 <div class="modal-dialog" role="document">
+ 		   <div class="modal-content">
+  		    <div class="modal-header">
+      		  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      		  <h4 class="modal-title" id="exampleModalLabel">Sign Up</h4>
+    	   </div>
+   		<div class="modal-body">
+       <form>
+       
+       		<div class="form-group">
+       				<label for="inputusername">Name</label>
+       				<input type="text" class="form-control" id="username1" placeholder="Name">
+       		</div>
+  			<div class="form-group">
+  		 		 	<label for="exampleInputEmail1">Email address</label>
+  		 		 	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+ 			 </div>
+  		<div class="form-group">
+   				<label for="exampleInputPassword1">Password</label>
+   				 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+ 		 </div>
+ 		 <div class="form-group">
+   				<label for="exampleInputPassword1">Confirm Password</label>
+   				 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
+ 		 </div>
+  		
+		</form>
+		</div>
+		
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>Existing User?</button>
+        <button type="button" class="btn btn-primary" onclick="Register()">Sign up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </form>
+        
+
+        
+
+
+      <ul class="nav navbar-nav navbar-right">
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class="row">
+    <div class="col-sm-1" style="background-color:lavender;"></div>
+    <div class="col-sm-10" style="background-color:#337ab7 font-family: sans-serif; text-align: justify; font-size:large;">
+    <h3>ABOUT US</h3>
+    <br>
+    <br>
+    Our story begins with you
+
+Flyer is all about you - Our aim is to empower every person in the country to independently connect with buyers and sellers online. Brainchild of Pranay Chulet, Quikr is widely known as India’s no. 1 online classifieds platform - and there’s a reason behind that. We care about you - and the transactions that bring you closer to your dreams. Want to buy your first car? We’re here for you. Want to sell commercial property to buy a home for your family? We’re here for you. Whatever job you’ve got, we promise to get it done.
+
+Founded in 2008 and headquartered in Bangalore, Flyer has left a memorable footprint in over 1000 cities. And we continue to work towards building the future of trading and e-commerce.
+
+    In 2014 we raised about $150 million split into different sources - In a financing round led by Tiger Global, we raised $90 million, and in yet another round led by Kinnevik, we raised $60 million. Till now, Quikr has raised $350 million in 7 rounds, to fulfill the dream of disrupting the Indian e-commerce market to enable and empower people.
+    We’ve had the good fortune to be backed by some of the world’s most reputed investment giants. The road to our milestones was paved with the support of Kinnevik, Matrix Partners India, Omidyar Network, Norwest Venture Partners, Nokia Growth Partners, Warburg Pincus and eBay Inc.
+    </div>
+    <div class="col-sm-1" style="background-color:lavender;"></div>
+  </div>
+
+
+  <div class="row">
+<!-- Footer nav bar -->
+<nav class="navbar navbar-inverse navbar-fixed-bottom ">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">XFlyer</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="aboutus.html">About Us <span class="sr-only">(current)</span></a></li>
+        <li><a href="Terms.html">Terms & Conditions</a></li>
+        <li><a href="help.html">Help Desk</a></li>
+        <li><a href="copyright.html">Copy Right</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav></div>
+</div>
+</body>
+</html>

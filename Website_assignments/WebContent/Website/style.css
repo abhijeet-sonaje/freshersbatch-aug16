@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+.bg{
+	background-image: url("wbg.png");
+	 
+}
+
+
+table {
+	
+    border-collapse: collapse;
+   	
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+table, th, td{
+	border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.tablebg{
+	background-color:white; 
+	border:2px solid black;
+	text-align : left;
+	width:55% ;	
+}
+.nav a:hover {background-color: #0080ff;}
+
+.nav{
+	background-color: #626568;
+}
+.nav a{
+    
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+}
+
+span{
+	vertical-align: middle;
+}
+
+.img1{
+	float : left;
+}
