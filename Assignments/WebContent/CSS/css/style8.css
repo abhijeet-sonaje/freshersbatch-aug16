@@ -1,0 +1,14 @@
+.box1{
+	outline: 5px solid black;
+	padding: 2px;
+}
+
+.box2{
+	outline: 3px solid black;
+	padding: 2px;
+}
+
+.box3{
+	outline: 1px ridge black;
+	padding: 2px;
+}

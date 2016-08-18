@@ -1,0 +1,15 @@
+*{
+	background-color : PaleTurquoise;
+}
+
+.a1{
+	text-transform: uppercase;
+}
+
+.a2{
+	text-transform: lowercase;
+}
+
+.a3{
+	text-transform: capitalize;
+}
